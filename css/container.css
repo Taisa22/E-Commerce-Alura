@@ -1,0 +1,38 @@
+.container {
+    height: 400px;
+    background-image: url(../img/painel-joias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.container__promocional{
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px 32px;
+}
+
+.container__promocional h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--color-black);
+}
+
+.container__promocional p {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--color-black);
+}
+
+.button__joias {
+    padding: 16px 30px;
+    background-color: var(--color-deepPink);
+    color: var(--color-black);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}

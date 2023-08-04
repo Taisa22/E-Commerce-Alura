@@ -6,37 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap">
 
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/container.css">
+
     <link type="image/png" sizes="16x16" rel="icon" href="img/icons8-pedra-preciosa-rubi-16.png">
     <title>ALURA GLOW</title>
     </head>
     <body>
-    <header>
-       <div>
+    <header class="cabecalho">
+       <div class="logo__search">
         <a>
             <img src="img/logo.jpg" alt="" width="200px" height="70px">
         </a>
         <div>
-            <input type="text" placeholder="O que deseja encontrar?" value>
-            <img src="img/icons8-lupa-50.png" alt="">
+            <input class="search" type="text" placeholder="O que deseja encontrar?" value="">
         </div>
        </div>
        <div>
         <a>
-            <button>Login</button>
+            <button class="button__login">Login</button>
         </a>
     </div>
     </header>
-    <div>
-        <img src="img/painel-joias.jpg" alt="">
-        <div>
+    <div class="container">
+        <div class="container__promocional">
             <h2>Dezembro Promocional</h2>
-            <p>Produtos selecionaods com 33% de desconto</p>
+            <p>Produtos selecionados com 33% de desconto</p>
             <a>
-                <button>Ver Jóias</button>
+                <button class="button__joias">Ver Jóias</button>
             </a>
         </div>
+    </div>
         <section>
             <div>
                 <h3>Brincos</h3>
